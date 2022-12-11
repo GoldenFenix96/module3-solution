@@ -1,0 +1,95 @@
+body {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header-nav {
+    background-color: #5d5c59;
+    border-radius: 0;
+    border: 2px solid #040404;
+}
+.navbar-brand h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #040404;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}   
+.navbar-brand {
+    padding-top: 25px;
+}
+#nav-list{
+    margin-top: 10px;
+}
+#nav-list a{
+    color: #150839;
+    text-align: center;
+}
+#nav-list a:hover {
+    background: #c0b5b5
+}
+#nav-list span {
+    font-size: 1.8em;
+}
+#nav-list hr {
+    width: 100%;
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #3a4a04;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+/* Main Content */
+#menu-categories-title {
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.category-tile {
+    position: relative;
+    border: 2px solid #000000;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    margin: 0 auto 15px 25px;
+}
+.category-tile p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+.category-tile span {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+.category-tile a {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
